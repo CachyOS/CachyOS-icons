@@ -7,6 +7,8 @@ Custom Icons Made for CachyOS
 
 
 - Make Sure defs tag has this defenition
+
+```svg
 <defs>
  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#333333;
@@ -18,9 +20,12 @@ Custom Icons Made for CachyOS
         color:#1dc7b5;
       }</style>
 </defs>
+```
 
 - Each path that you need to inherit color from the OS, should have these Property
+```svg
 <path
 class="ColorScheme-Highlight"
 fill="currentColor"
 />
+```
